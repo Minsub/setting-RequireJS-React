@@ -97,11 +97,11 @@ define(function(require){
 });
 ```
 
-'main.js'
+`main.js`
 
 require로 
 
-'''js
+```js
 require(['jsx!view/Navigation','jsx!view/App'], function(Navigation, App){
   "use strict";
   
@@ -113,5 +113,5 @@ require(['jsx!view/Navigation','jsx!view/App'], function(Navigation, App){
 }, function(error) {
 	console.log("EEROR: "+error)
 });
-'''
+```
 
