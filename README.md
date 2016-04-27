@@ -35,6 +35,8 @@ HTML에서 기본 세팅을 require와 require-config만 설정
 </html>
 ```
 
+
+
 `require-config.js`
 
 require설정 파일.
@@ -64,6 +66,8 @@ require.config({
 	}
 });
 ```
+
+
 
 `App.js`
 
@@ -98,6 +102,8 @@ define(function(require){
 
 });
 ```
+
+
 
 `main.js`
 
