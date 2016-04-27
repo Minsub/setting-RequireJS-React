@@ -63,7 +63,7 @@ require.config({
 		}
 	}
 });
-
+```
 
 `App.js`
 
