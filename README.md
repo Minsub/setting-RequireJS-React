@@ -1,6 +1,8 @@
 # setting-RequireJS-React
 React의 JSX를 RequireJS를 사용해 모듈화하는 기본 세팅.
 
+RequireJS만 사용시 react의 JSX로 만들어진 파일을 가져올때 문법오류가 나기 때문에 부가적인 plug-in 세팅이 필요.
+
 [Webpack](https://webpack.github.io/), [browserify](http://browserify.org/) 와 같은 Module Bundler 사용하지 않고 browser레벨에서 사용 항 수 있도록 세팅.
 
 참조: [requirejs-react-jsx](https://github.com/podio/requirejs-react-jsx)
@@ -99,7 +101,7 @@ define(function(require){
 
 `main.js`
 
-require로 
+require함수로 module을 불로오는데 jsx파일을 앞에 jsx!을 붙히면 자동으로 require.config에서 설정한 세팅인 .jsx파일 읽는다.
 
 ```js
 require(['jsx!view/Navigation','jsx!view/App'], function(Navigation, App){
